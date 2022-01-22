@@ -7,8 +7,25 @@
 *** Keys are often stored in a digital wallet and are used to sign transactions in order to spend bitcoin, so the control is entirely in the hands of the holder of the keys (remember, *not your keys, not your bitcoin*)
 ** Bitcoin is a distributed, peer-to-peer system with no centralized entity in control of the network, so bitcoins are created by "mining"
 *** Mining involves using computing power to find solutions to a mathematical problem which validates transactions that are broadcasted on the network
-**** Every 10 minutes on average, a Bitcoin miner validates the tranasactions in a block and is rewarded with Bitcoin by adding a transaction on the block that says "This miner owns *current block reward* bitcoin"
+**** Every 10 minutes (on average-no matter the current hash rate), a Bitcoin miner validates the tranasactions in a block and is rewarded with Bitcoin by adding a transaction on the block that says "This miner owns *current block reward* bitcoin"
 ***** Remember, at the end of the day, Bitcoin is simply an distributed ledger that is incorruptible because it uses mining as a "Proof of Work" consensus algorithm
+** The Bitcoin protocol halves the rate at which new bitcoin is created every 4 years to prevent inflation (the FED could never lol), *limiting the total supply of Bitcoin to just below 21 million bitcoins*, with the last bitcoin to be mined somewhere in 2140
+** Bitcoin consists of: 
+*** A decentralized peer-to-peer network (the Bitcoin protocol)
+*** A public transaction ledger (the blockchain)
+*** ((("mining and consensus", "consensus rules", "satisfying")))A set of rules for independent transaction validation and currency issuance (consensus rules)
+*** A mechanism for reaching global decentralized consensus on the valid blockchain (Proof-of-Work algorithm)
+** Bitcoin is a culmination of cryptography to provide a more sound version of money that fixes the counterfeit problem of fiat cash, the "double-spend" problem of digital money, and prevents anyone else from claiming ownership over someone else's funds (Private keys)
+*** No way to counterfeit bitcoin without controlling over 51% of the network
+*** Once the transaction is validated on the blockchain, the transaction is final, on the blockchain, *forever*
+
+* History of Bitcoin
+** Bitcoin was invented in 2008 with the publication of the paper: "Bitcoin: A Peer-to-Peer Electronic Cash System" written under the alias of Satoshi Nakamoto
+** Bitcoin network started in 2009 based on a reference implementation by Nakamoto and since revised by many other programmmers
+** Largest transaction processed so far was $1.1 billion transmitted instantly and processed for a fee of only $0.68.
+** Satoshi withdrew from the public in 2011 leaving the responsibility of developing the code to a thriving group of volunteers, and his/her/their identity is unknown
+** Nakamoto's invention is a practical and novel solution to the Byzantine Generals' Problem with the Proof-of-Work algorithm
+
 
 
 
