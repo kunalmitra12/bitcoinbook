@@ -1,6 +1,17 @@
 == Kunal's Summary
-* Bitcoin vs. bitcoin vs. Bitcoin protocol
-** test
+* What is Bitcoin anyway?
+** Bitcoin is a collection of concepts and technologies that form the basis of a digital money ecosystem, while bitcoin refers to one unit of the currency
+** The Bitcoin protocol stack refers to the open source instructions of how any computing device connected to the internet can communicate with other nodes on the Bitcoin network, in the same way it uses the TCP/IP protocol to communicate with other nodes on the Internet
+** Bitcoin can be purchased, sold, and exchanged for other currencies at specialized currency exchanges in a fast, secure, and borderless manner
+** Users of Bitcoin own keys that prove ownership of bitcoin in the Bitcoin network
+*** Keys are often stored in a digital wallet and are used to sign transactions in order to spend bitcoin, so the control is entirely in the hands of the holder of the keys (remember, *not your keys, not your bitcoin*)
+** Bitcoin is a distributed, peer-to-peer system with no centralized entity in control of the network, so bitcoins are created by "mining"
+*** Mining involves using computing power to find solutions to a mathematical problem which validates transactions that are broadcasted on the network
+**** Every 10 minutes on average, a Bitcoin miner validates the tranasactions in a block and is rewarded with Bitcoin by adding a transaction on the block that says "This miner owns *current block reward* bitcoin"
+***** Remember, at the end of the day, Bitcoin is simply an distributed ledger that is incorruptible because it uses mining as a "Proof of Work" consensus algorithm
+
+
+
 
 [role="pagenumrestart"]
 [[ch01_intro_what_is_bitcoin]]
