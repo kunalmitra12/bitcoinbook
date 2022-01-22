@@ -1,5 +1,7 @@
 == Kunal's Summary
-
+.Bulleted
+* Bitcoin vs. bitcoin vs. Bitcoin protocol
+**
 
 [role="pagenumrestart"]
 [[ch01_intro_what_is_bitcoin]]
