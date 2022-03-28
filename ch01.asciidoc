@@ -36,7 +36,7 @@
 **** Hardware wallet - devices that operate a secure self-contained Bitcoin wallet on special purpose hardware, all Bitcoin-related operations are handled on the specialized hardware (*very secure*)
 *** There is also a reference implementation of  the Bitcoin protocol that includes a wallet, known as the "Satoshi Client" or "Bitcoin Core," derived from the original implementation written by Satoshi Nakamoto
 **** Full-node client - stores entire blockchain, manages users' wallets, and can initiate transactions directly on the Bitcoin network (need ~350 GB for blockchain and 2 GB of RAM, but offers complete autonomy and independent transaction verification)
-**** Lightweight client - also knowns as simplified-payment-verification (SPV) client, connects to Bitcoin full nodes to access transaction information, stores user wallet locally, and creates/validates/transmits transactions, can interact directly with Bitcoin network without intermediary
+**** Lightweight client - AKA simplified-payment-verification (SPV) client, connects to Bitcoin full nodes to access transaction information, stores user wallet locally, and creates/validates/transmits transactions, can interact directly with Bitcoin network without intermediary
 **** Third-party API client - interacts with Bitcoin through a third-party system of APIs, rather than connecting to the Bitcoin network directly
 ** Mnemonic Words - most modern Bitcoin wallets will provide a phrase of 12-24 English words to act as a recovery phrase in case you lose access to your wallet (write down 2 copies, keep safe in locker)
 
